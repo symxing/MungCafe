@@ -232,8 +232,18 @@ footer {
         width: 75%;
     }
     .hour-table h5 {
-        font-size: 20px;
+        font-size: 22px;
        }
+
+    .address-text h2 {
+        color: rgb(128, 128, 128);
+        font-size: 28px;
+    }
+
+.address-text p {
+    color: rgb(128, 128, 128);
+    font-size: 16px;
+}
 
     .media-plugins {
         height: 50px;
