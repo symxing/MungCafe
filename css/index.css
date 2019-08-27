@@ -32,9 +32,6 @@ nav ul li a {
     padding-left: 80px; 
 }
 
-a:hover{
-    color: #4A5070;
-}
 /* end nav */
 
 /* header */
@@ -106,8 +103,13 @@ background-color: #154366;
     flex-direction: row; 
 }
 
+.operating-hours h2 {
+    color: whitesmoke;
+}
+
 .hour-table h5 {
     font-size: 28px;
+    color: whitesmoke;
 }
 
 .left {
