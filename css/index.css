@@ -222,7 +222,7 @@ footer {
 /* end footer */
 
 /* mobile queries */
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 414px) {
     .operating-hours {
         height: 500px;
     }
@@ -231,8 +231,16 @@ footer {
         height: 75%;
         width: 75%;
     }
+
+    .left {
+        text-align:center;
+    }
+
+    .right {
+        text-align: center;
+    }
     .hour-table h5 {
-        font-size: 22px;
+        font-size: 18px;
        }
 
     .address-text h2 {
