@@ -1,0 +1,222 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+/* nav */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 30px;
+    background-color: whitesmoke;
+    z-index: 100;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 5px;
+    margin-right: 50px;
+}
+
+ ul li{
+    display: inline-block;
+    padding-right: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    color: #828282;
+    padding-left: 80px; 
+}
+
+a:hover{
+    color: #4A5070;
+}
+/* end nav */
+
+/* header */
+.fixed-background {
+    background: url('../imgs/latte-art.png');
+    width: 100%;
+    height: 768px;
+    display:block;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.full-width {
+    text-align: center;
+}
+
+.full-width h1 {
+    font-family: 'Signika', sans-serif;
+    color: whitesmoke;
+    text-shadow: 2px 2px rgb(128, 128, 128);
+    font-size: 90px;
+    font-weight: bold;
+    padding: 140px 0;
+}
+
+.full-width h2 {
+    color: whitesmoke;
+    text-shadow: 2px 2px rgb(128, 128, 128);
+    font-size: 42px;
+    padding: 0;
+    padding-bottom: 60px;
+}
+
+button {
+    background-color: rgb(128, 128, 128);
+  border: 1px solid black;
+  border-radius: 8px;
+  color: whitesmoke;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+/* end header */
+
+/* operating hours */
+.operating-hours {
+    height: 300px;
+    background: rgb(128, 128, 128);
+    padding: 5%;
+}
+
+.operating-header {
+    font-size: 32px;
+    font-weight: bold;
+    padding: 10px;
+    text-shadow: 1px 1px darkslategrey;
+}
+
+.hour-table {
+    /* border: 1px solid black; */
+    height: 80%;
+    width: 80%;
+    margin: right;
+    display: flex;
+    flex-direction: row; 
+}
+
+.hour-table h5 {
+    font-size: 28px;
+}
+
+.left {
+    /* border: 1px solid black; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.right {
+    /* border: 1px solid black; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* end operating hours */
+
+/* map & location*/
+
+.map-location {
+    height: 300px;
+    background: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.address-text h2 {
+    color: rgb(128, 128, 128);
+    font-size: 42px;
+}
+
+.address-text p {
+    color: rgb(128, 128, 128);
+    font-size: 28px;
+}
+#map {
+    border: 1px solid rgb(128, 128, 128);
+    border-radius: 5px;
+    height: 260px;  /* The height is 400 pixels */
+     width: 45%;  /* The width is the width of the web page */
+    }
+/* end map */
+
+/* footer */
+footer {
+    height: 150px;
+    background: #101010;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.media-plugins {
+    height: 50px;
+    width: 30%;
+    padding: 16px;
+}
+
+.media-plugins a {
+    margin: 10px;
+}
+
+.fa {
+  padding: 15px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 45%;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.extra-footer {
+    margin-top: 26px;
+    height: 50px;
+    width: 40%;
+}
+
+.extra-footer a {
+    text-decoration: underline;
+    color: whitesmoke;
+    font-size: 22px;
+    margin: 10px;
+}
+/* end footer */
