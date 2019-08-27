@@ -8,7 +8,7 @@ nav {
     left: 0;
     right: 0;
     height: 30px;
-    background-color: whitesmoke;
+    background-color: #663815;
     z-index: 100;
 }
 nav ul{
@@ -28,7 +28,7 @@ nav ul li a {
     text-transform: uppercase;
     text-decoration: none;
     font-size: 18px;
-    color: #828282;
+    color: whitesmoke;
     padding-left: 80px; 
 }
 
@@ -71,7 +71,7 @@ a:hover{
 }
 
 button {
-    background-color: rgb(128, 128, 128);
+background-color: #154366;
   border: 1px solid black;
   border-radius: 8px;
   color: whitesmoke;
@@ -86,7 +86,7 @@ button {
 /* operating hours */
 .operating-hours {
     height: 300px;
-    background: rgb(128, 128, 128);
+    background: #663815;
     padding: 5%;
 }
 
@@ -162,7 +162,7 @@ button {
 /* footer */
 footer {
     height: 150px;
-    background: #101010;
+    background: #154366;
 }
 
 .footer {
@@ -189,6 +189,7 @@ footer {
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
+  border: 1px solid whitesmoke;
   border-radius: 45%;
 }
 
