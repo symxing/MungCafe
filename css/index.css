@@ -223,9 +223,12 @@ footer {
 
 /* mobile queries */
 @media screen and (max-width: 375px) {
-        .hour-table h5 {
-            font-size: 20px;
-        }
+    .operating-hours {
+        height: 500px;
+    }
+    .hour-table h5 {
+        font-size: 20px;
+       }
     }
 
 /* end mobile queries */
