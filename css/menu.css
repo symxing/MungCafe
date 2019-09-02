@@ -1,0 +1,133 @@
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: whitesmoke;
+}
+
+/* nav */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 30px;
+    background-color: #663815;
+    z-index: 1;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 5px;
+    margin-right: 50px;
+}
+
+ ul li{
+    display: inline-block;
+    padding-right: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    color: whitesmoke;
+    padding-left: 80px; 
+}
+
+/* end nav */
+ .menu-img img {
+    position: absolute;
+    left: 60%;
+    top: 5%;
+    border: 2px solid #154366;
+    height: 600px;
+    width: 350px;
+ }
+
+ .menu-items-left {
+     margin: 12px 50px;
+     float: left;
+     width: 200px;
+ }
+
+ .menu-items-left h4 {
+     font-size: 1.5em;
+     margin: 20px 0px 20px 12px;
+ }
+
+ .menu-items-left p {
+     font-size: 1em;
+     margin: 0 0 0 12px;
+ }
+
+ .menu-items-right {
+     margin: 12px 50px;
+     float: left;
+     width: 200px;
+ }
+
+ .menu-items-right h4 {
+     font-size: 1.5em;
+     margin: 20px 0px 20px 12px;
+ }
+
+ .menu-items-right p {
+     font-size: 1em;
+     margin: 0 0 0 12px;
+ }
+
+/* media queries */
+@media screen and (max-width: 460px) {
+    nav ul {
+        margin: 5px 0;
+    }
+    nav ul li a {
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: 0.75em;
+        color: whitesmoke;
+        padding-left: 18px; 
+    }
+
+    .menu-img img {
+        position: relative;
+        top: 20%;
+        left: 0;
+        border: 2px solid #154366;
+        height: 600px;
+        width: 340px;
+    }
+
+    .menu-items-left {
+        margin: 12px 15px;
+        float: left;
+        width: 140px;
+    }
+
+    .menu-items-left h4 {
+        font-size: 1.5em;
+        margin: 20px 0px 20px 12px;
+    }
+
+    .menu-items-left p {
+        font-size: 1em;
+        margin: 0 0 0 12px;
+    }
+
+    .menu-items-right {
+        margin: 12px 15px;
+        float: left;
+        width: 140px;
+    }
+
+    .menu-items-right h4 {
+        font-size: 1.5em;
+        margin: 20px 0px 20px 12px;
+    }
+
+    .menu-items-right p {
+        font-size: 1em;
+        margin: 0 0 0 12px;
+    }
+}
+/* end media */
