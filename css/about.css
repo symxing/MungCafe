@@ -1,0 +1,66 @@
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: whitesmoke;
+}
+
+/* nav */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 30px;
+    background-color: #663815;
+    z-index: 1;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 5px;
+    margin-right: 50px;
+}
+
+ ul li{
+    display: inline-block;
+    padding-right: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    color: whitesmoke;
+    padding-left: 80px; 
+}
+
+/* end nav */
+
+.about-us h1 {
+    color: #663815;
+    text-align: center;
+    font-size: 3em;
+    padding: 16px;
+}
+
+.about-us p {
+    color: #663815;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 12px 18px;
+}
+
+/* media queries */
+@media screen and (max-width: 460px) {
+    nav ul {
+        margin: 5px 0;
+    }
+    nav ul li a {
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: 0.75em;
+        color: whitesmoke;
+        padding-left: 18px; 
+    }
+}
+/* end media */
